@@ -2,9 +2,9 @@
 
 
 /*
-* binary_tree_node - Creates a binary tree node.
-* @parent: A pointer to the parent node of the node to create.
-* @value: The value to put in the new node.
+* binary_tree_node - The function creates a binary tree node.
+* @parent: This is a pointer to the parent node of the node to create.
+* @value: This is the value to put in the new node.
 *
 * Return: NULL if there is an error, otherwise a pointer to the new node.
 */
@@ -17,7 +17,7 @@ if (new_node == NULL)
 return (NULL);
 }
 
-new_node->value = value;
+new_node->n = value;
 new_node->parent = parent;
 new_node->left = NULL;
 new_node->right = NULL;
